@@ -1,0 +1,339 @@
+/*
+Theme Name: ATS
+Description: Custom Theme
+Version: 1.0
+Author: Capitol Web Design
+*/
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #CAE1EE;
+	background-image:  url('http://addiction-treatment-services.com/wp-content/themes/ATS/images/bg.gif');
+	background-repeat:repeat-x;
+}
+div{margin:0;}
+p {color: #464646; font-family:Verdana, Arial; text-align:justify; font-size:14px;}
+.copyright {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #244259;
+}
+.main_title {
+	font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;
+	font-size: 18px;
+	padding-left:8px;
+	color: #FFFFFF;
+	background-image:url(images/main_title_bg.gif); background-repeat:repeat-x; 
+	width:450px;
+	
+}
+.gethelp {
+	font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;
+	font-size: 18px;
+	padding-left:8px;
+	color: #FFFFFF;
+}
+#menuWrapper{width:945px;clear:both; position:relative;margin-top:0;}
+.menubkgrnd {background:url(images/top_menu_bar.jpg); margin: 0 auto;}
+.menu {width:945px; margin:0 auto; height:33px; vertical-align:bottom;}
+#nav ul {
+	padding: 0;
+	display:block;
+	list-style: none; 
+	line-height: 1;
+	z-index: 100;
+	width:934px;
+}
+#nav a {
+	z-index: 100;
+	color:#202020;
+	text-decoration:none;
+	font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;
+	font-size: 14px;
+	font-weight:bold;
+}
+#nav a:hover {
+	z-index: 100;
+	color:#244259;
+	font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;
+	font-size: 14px;
+	font-weight:bold;
+}
+#nav li {
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+	width:120px;
+	height:33px;
+	border-right: 1px solid #adadad;
+	text-align:center;
+	}
+#nav li.menu-item-329 {
+	border-right:none;
+}
+#nav li.menu-item-93 {
+	width:90px;
+}
+/* Style drop down list */
+#nav li ul.sub-menu {
+	position: absolute;
+	width: 225px;
+	left: -999em;
+	background-color:#d6d6d6;
+	padding:0;
+	margin:0;
+	border-right: #2A2A2A 1px solid;
+	
+}
+#nav li:hover ul, #nav li.sfhover ul {
+	left: auto; text-decoration:none; 
+}
+#nav li ul li {border-right:none;}
+#nav li ul li a {
+	line-height: 27px;
+	font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;
+	font-size: 14px;
+	font-weight:normal;
+	width: 220px;
+	text-decoration:none;
+	background-color: #d6d6d6;
+	text-align:left;
+	display:block;
+	}
+#nav li ul li a:hover {
+	line-height: 27px;
+	font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;
+	font-size: 14px;
+	font-weight:normal;
+	width: 220px;
+	text-decoration:underline;
+	background-color: #eaeaea;
+	text-align:left;
+	display:block;
+	border-right:none;
+}
+#nav li ul li a {
+	border-right: #2A2A2A 1px solid;
+}
+#nav li ul li ul li a {
+	border-right: #2A2A2A 1px solid;
+}
+#nav li ul ul ul{
+	margin: -26px 0 0 205px;
+}
+
+#nav li ul ul li a {
+	line-height: 27px; 
+	}
+#nav ul li ul li:hover  ul {margin: -26px 0 0 215px; display:block; position:relative; border-right:1px solid #000;float:left;}
+#nav ul li ul li:hover  ul li a {
+	line-height: 27px;
+	font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;
+	font-size: 14px;
+	font-weight:normal;
+	width: 220px;
+	text-decoration:none;
+	background-color: #d6d6d6;
+	text-align:left;
+	display:block;
+	}
+#nav ul li ul li:hover  ul li a:hover {
+	line-height: 27px;
+	font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;
+	font-size: 14px;
+	font-weight:normal;
+	width: 220px;
+	text-decoration:underline;
+	background-color: #eaeaea;
+	text-align:left;
+	display:block;
+}
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul, #nav li.sfhover ul ul ul ul {
+	left: -999em; text-decoration:underline; 
+}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul, #nav li li li li.sfhover ul {
+	left: auto; 
+}
+/* IE7 Fix */
+#nav li:hover, #nav li.hover {  
+	position: static;
+}/* FOOTER MENU */
+#footer {width:934px; color:#404040;font-size:10px;padding:10px;font-family:Verdana;margin:0; float:right;}
+#footer ul.menu {float:left; z-index:100;  list-style:none;margin-left:310px;}
+#footer ul.menu li.menu-item {float:left; color: #055087; text-decoration:none;}
+#footer ul.menu li.menu-item a {color: #055087; font-family:verdana; font-size:11px; display:block; text-decoration:underline; padding-right:12px;}
+#footer ul.menu li.menu-item a:hover {color:#202020; text-decoration:none;}
+h1 .welcometext {
+font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;
+	font-size: 9px;
+	padding-left:8px;
+	color: #FFFFFF;
+}
+h1 h2 h3 h4 {
+font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	padding-left:8px;
+	color: #000;
+}
+.leftcolum_txt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #464646;
+	padding-top:8px;
+	padding-bottom:8px;
+	
+}
+.800number {color:#fff;font-weight:bold;font-size:1.5em;text-align:center;}
+.insurance-co {
+		background-color:#B0C480; color:#464646; font-size:14px; padding-top:15px; padding-bottom:15px; font-weight:bold;font-family:Verdana, Arial;}
+.space1 {
+	padding: 8px;
+}
+.space2 {
+	padding: 8px;
+	background-color:#fff;
+}
+.subtitle1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #446D8C;
+	font-weight: bold;
+	padding-left:8px;
+}
+.rightcolumn_txt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #234158;
+	padding: 8px;
+	margin-top:0px;
+	
+}
+.rightcolumn_txt a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #234158;
+	text-decoration:underline;
+	font-style:normal;
+}
+.rightcolumn_txt a:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #234158;
+	text-decoration:none;
+	font-style:normal;
+
+}
+.main_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #2E2E2E;
+}
+.sample_image {
+	float:left;
+	padding: 0px 5px 5px 0px;
+}
+.mainmenu {
+	font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;
+	font-size: 14px;
+	color: #464646;
+	text-decoration:none;
+}
+.mainmenu a{
+	font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;
+	font-size: 14px;
+	color: #464646;
+	text-decoration:none;
+}
+.mainmenu a:hover{
+	font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;
+	font-size: 14px;
+	color: #446D8C;
+	text-decoration:none;
+}
+.search_box{
+	width: 100px;
+	height: 22px;
+	border-color: #1D5C8D;
+	border-style: solid;
+	border-width: 1px;
+}
+.leftcolumn_txtboxes{
+	width: 171px;
+	border-color: #8C8C8C;
+	border-style: solid;
+	border-width: 1px;
+}
+.middle-mainbox-bg {width:945px;background-image:url(http://addiction-treatment-services.com/wp-content/themes/ATS/images/middle_mainbox_bg.jpg);z-index:1}
+td .leftmenu-title-bg {height:36px; align:center; valign:middle; background-image:url(http://addiction-treatment-services.com/wp-content/themes/ATS/images/leftmenu_title_bg.gif);}
+.searchbox {background-image:url(images/main_title_bg.gif); background-repeat:repeat-x;size:200px;height:36px;}
+.rightsidebar {padding:8px; vertical-align:top; background-color:#C9D7E6;}
+.right_titles {font-family: "Trebuchet MS", Tahoma, Arial, Helvetica;font-size: 16px;padding-left:8px;color: #464646;}
+.footer {width:934px;text-align:center; color:#404040;font-size:10px;padding:10px;font-family:Verdana;}
+#searchform .screen-reader-text {display:none;}
+#searchform {position:relative;width:175px;float:right; margin:0;padding:1px;}
+input {width:75px; padding:0;}
+#container {position:relative;margin-left:12px;z-index:1;}
+#maincontent{color:#000; font-family:Verdana, Arial; font-size:14px; line-height:1.5em;}
+#maincontent h1 {color:#000; font-family:Verdana, Arial; font-size:18px;}
+#maincontent h2 {color:#000; font-family:Verdana, Arial; font-size:14px;}
+#maincontent h3 {color:#000; font-family:Verdana, Arial; font-size:12px;}
+#maincontent p {color:#404040; font-family:Verdana, Arial; font-size:14px;}
+#maincontent a {text-decoration:underline; color:#316D9B;}
+#maincontent a:visited {text-decoration:underline; color:#316D9B;}
+#maincontent a:hover {text-decoration:none; color:#316D9B; background-color:#C9D7E6;}
+ul {list-style-type:none; position:outside;}
+#maicontent ul {position: outside;}
+#maincontent li {list-style:square;}
+#maincontent .alignleft,
+#maincontent img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+	margin-top: 4px;
+}
+#maincontent .alignright,
+#maincontent img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 10px;
+	margin-top: 4px;
+}
+#maincontent .aligncenter,
+#maincontent img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#maincontent img.alignleft,
+#maincontent img.alignright,
+#maincontent img.aligncenter {
+	margin-bottom: 12px;
+}
+#maincontent .wp-caption {
+	background: #f1f1f1;
+	line-height: 18px;
+	margin-bottom: 20px;
+	padding: 4px;
+	text-align: center;
+}
+#maincontent .wp-caption img {
+	margin: 5px 5px 0;
+}
+#maincontent .wp-caption p.wp-caption-text {
+	color: #888;
+	font-size: 12px;
+	margin: 5px;
+}
+#maincontent img {
+	border: 2px solid #cfcfcf;
+}
+
+.shadow {
+	text-shadow: 1px 1px #404040;
+	filter: glow(color=#0000ff,strength=3); /* IE */
+  //alternative
+  //filter: dropshadow(color=#404040,offX=1,offY=1);
+}

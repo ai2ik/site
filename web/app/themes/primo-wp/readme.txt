@@ -1,0 +1,1 @@
+The full documentation can be found in the /04.documentation folder that came inside the download .zip
